@@ -1,0 +1,118 @@
+:root{
+  color-scheme:dark;
+  --ink:#f2ece5;
+  --muted:#aaa0a0;
+  --red:#b83a46;
+  --red-dark:#922d39;
+  --bg:#111014;
+  --line:#39343b;
+  --nav:#0c0b0f;
+  --white:#201d23;
+  --green:#62b89a;
+  --gold:#c5a46d;
+  --surface:#201d23;
+  --surface-raised:#28242b;
+  --surface-soft:#19171c;
+}
+body{background:radial-gradient(ellipse at 78% -12%,#4d26321c,transparent 35%),radial-gradient(ellipse at 10% 70%,#b58a4b08,transparent 32%),var(--bg);color:var(--ink)}
+::selection{background:#b83a4666;color:#fff8f0}
+.sidebar{background:linear-gradient(180deg,#100e12 0%,#151218 58%,#100e12 100%);border-right:1px solid #ffffff0b;color:#d9d0ca}
+.brand{color:#fff8f0}.brandmark{background:linear-gradient(145deg,#d04c56,#8e2836);box-shadow:0 6px 18px #9e303c44}
+.navlabel{color:#8e8588}.sidebar nav a{color:#c2b9b7}.sidebar nav a:hover,.sidebar nav a.active{background:linear-gradient(100deg,#4a222c,#2b2028);color:#fff8f0}.sidebar nav a.active{box-shadow:inset 2px 0 var(--red),0 8px 24px #0003}
+.topbar{background:#17151aeF;border-color:var(--line);backdrop-filter:blur(18px);box-shadow:0 8px 28px #0003}.crumb,.today{color:#aaa0a0}.citylabel,.citylabel select{color:var(--ink)}
+.content{color:var(--ink)}.title,.rowhead h2,.reel-heading h2,.reel-caption h3,.movieinfo h3,.panel h2,.admin-panel-heading h2{color:#f4eee8}.sub,.meta,.reel-heading p,.reel-footnote{color:var(--muted)}
+.hero{background:radial-gradient(ellipse at 83% 18%,#b58a4b26,transparent 32%),linear-gradient(112deg,#21171f 0%,#44202b 52%,#762d3a 100%);box-shadow:0 22px 65px #0005,inset 0 1px #ffffff12}.hero .eyebrow{color:#e3c28e}.hero p{color:#ddd2cc}.hero-orb{background:radial-gradient(circle at 32% 28%,#d8bc8d32,#c14a5318 48%,transparent 70%);border-color:#d8bc8d20}
+.searchbox{background:#f4eee8;box-shadow:0 12px 34px #08070a66}.searchbox input{background:transparent;color:#262128}.searchbox input::placeholder{color:#857d7a}
+.panel,.stat,.moviecard,.cinema-pov-card,.auth-card,.modal,.account-menu,.showtime-theatre,.showtime-card,.ticket,.confirmation-card,.account-profile,.admin-management-item,.filter-select-menu,.city-menu,.date-picker-menu{background:linear-gradient(145deg,var(--surface-raised),var(--surface));border-color:var(--line);color:var(--ink);box-shadow:0 18px 48px #0003,inset 0 1px #ffffff08}
+.moviecard,.reel-card{background:var(--surface);border-color:#484047;box-shadow:0 15px 38px #0005}.moviecard:hover,.reel-card:hover,.reel-card:focus-visible{border-color:#80615a;box-shadow:0 22px 54px #0009,0 0 0 1px #c5a46d22}.reel-stage{background:radial-gradient(ellipse at 50% 42%,#342b30 0%,#211d23 48%,#141217 82%)}.reel-card.is-active{border-color:#c5a46d66;box-shadow:0 28px 72px #0009,0 0 30px #c5a46d14}.reel-caption{background:linear-gradient(180deg,#242027,#1d1a20)}.reel-arrow{background:#28242beF;border-color:#534a50;color:#eee4dc;box-shadow:0 8px 24px #0008}.reel-arrow:hover{background:#393039;color:#e6c58c}.reel-footer{color:#bdb3af}.reel-footer i{color:#756b70}.reel-dots button{background:#665d62}
+.btn{background:linear-gradient(145deg,#c64a55,#a82f3e);color:#fff7f0;box-shadow:0 5px 14px #8a293633}.btn:hover{background:linear-gradient(145deg,#d35961,#a52e3d);box-shadow:0 8px 22px #8a293655}.btn.secondary{background:#29252c;color:#e8dfd9;border-color:#514850;box-shadow:none}.btn.secondary:hover{background:#363038;border-color:#78645d}.btn.ghost,.btn.danger{background:#382128;color:#e98a8e;border-color:#60343b;box-shadow:none}.linkred,.admin-management-add{color:#e17a7e}.eyebrow{color:#df777b}
+.toolbar input,.toolbar select,.field,.formfield input,.formfield select,.formfield textarea,.checkout-form input,.city-trigger,.filter-select-trigger,.auth-form input,.admin-dashboard-filters input{background:#19171c;color:#eee6df;border-color:#494149}.toolbar input::placeholder,.auth-form input::placeholder{color:#897f82}.toolbar input:focus,.field:focus,.formfield input:focus,.formfield select:focus,.formfield textarea:focus,.city-trigger:hover,.filter-select-trigger:hover{border-color:#b77a70;box-shadow:0 0 0 3px #b83a461c}.formfield,.checkout-form label,.toolbar label{color:#c0b6b2}
+table{color:#eee6df}th{background:#27232a;color:#b7acae;border-color:var(--line)}td{border-color:#373139;color:#ded5d0}tr:hover td{background:#ffffff05}.tablewrap{border-radius:10px}.pill{background:#37323a;color:#d1c7c3}.pill.green{background:#19372e;color:#78c9a7}.pill.red{background:#422329;color:#f08c91}.pill.amber{background:#3e3320;color:#e4bd76}
+.summaryline{color:#bdb3af;border-color:var(--line)}.summaryline b{color:#f1e9e2}.admin-management-item{background:linear-gradient(145deg,#29252c,#211e24)}.admin-management-open{color:var(--ink)}.admin-management-item:hover{border-color:#84645c;box-shadow:0 12px 28px #0006}.admin-dashboard-filters{background:var(--surface);border-color:var(--line)}.admin-dashboard-filters>strong,.admin-rank-copy strong,.admin-venue-row strong,.admin-venue-row b,.admin-payment-summary strong,.admin-panel-heading h2{color:#f1e9e2}.admin-rank-track{background:#3b353d}.admin-rank-track i{background:linear-gradient(90deg,#c5a46d,#b83a46)}.admin-next-show,.admin-venue-row,.admin-payment-summary{border-color:#3a343b}.admin-empty{background:#19171c;color:#aaa0a0}.admin-booking-ref,.datebox{background:#3c242c;color:#ed858a}
+.account-menu{box-shadow:0 18px 48px #0009}.account-menu-person strong,.account-menu button{color:#eee6df}.account-menu button:hover{background:#ffffff09}.avatar{background:#3c242c;color:#ef9697}.account-profile-avatar{background:#39232a;color:#f08c91}.account-role{background:#3e252b;color:#ec9798}.account-role-options button{background:#211e24;color:#cfc4c0;border-color:#514850}.account-role-options button.active{background:#49262d;color:#f19a9b;border-color:#ad4b54}.demo-note,.form-note{background:#28242b;border-color:#494149;color:#bfb5b1}.auth-error{color:#ff999e}
+.modalshade{background:#08070bbd;backdrop-filter:blur(12px)}.modal{box-shadow:0 30px 100px #000a,inset 0 1px #ffffff0a}.modalhead h2{color:#f4ece6}.xbtn{color:#bcb0ad}.datebox{background:#3b242a}.showtime-theatre{background:linear-gradient(145deg,#27232a,#211e24)}.theatre-showtime{background:#19171c;border-color:#494149;color:#eee6df}.theatre-showtime:hover,.theatre-showtime.selected{background:#3c242c;border-color:#b83a46}.showdate-tab{background:#211e24;border-color:#494149;color:#d8ceca}.showdate-tab.active{background:#49262d;border-color:#b83a46;color:#fff3ed}.showtime-selected-summary{background:#29252c;border-color:#494149;color:#eee6df}.seat-count-total,.admin-payment-summary{border-color:var(--line)}
+.seat{background:#242128;color:#d8ceca;border-color:#514a53}.seat:hover{background:#332d35}.seat.premium{border-color:#b58a4b;color:#e3c58d}.seat.selected{background:var(--red);color:white;border-color:var(--red)}.seat.booked{background:#3a363d;color:#8f878c;border-color:#48434a}.screenbar{background:linear-gradient(90deg,transparent,#c5a46d,#eee0c2,#c5a46d,transparent);box-shadow:0 5px 18px #c5a46d26}.screenlabel,.seatlegend{color:#b3a9a7}.seatlegend .sl2{background:#3a363d}.seatgrid .seat{background:#242128}
+.city-menu{background:#211e24;border-color:#494149}.city-menu-head,.city-menu-foot{border-color:#39343b}.city-menu-head strong,.city-option-copy strong{color:#eee6df}.city-menu-kicker,.city-option-copy small,.city-menu-head small{color:#aaa0a0}.city-option{color:#eee6df}.city-option:hover,.city-option.selected{background:#39252b}.city-option.selected .city-check{color:#e2bd7f}.city-pin{background:#39252b;color:#e9898c}
+.filter-select-menu{background:#211e24;border-color:#494149}.filter-select-option{color:#eee6df}.filter-select-option:hover,.filter-select-option.selected{background:#39252b;color:#ed9295}.filter-select-trigger{background:#211e24;color:#eee6df;border-color:#494149}
+.toast{background:#2b272e;color:#fff1e9;border:1px solid #5a4e55;box-shadow:0 12px 34px #0008}.empty,.admin-management-note,.statlabel,.statnote,.admin-panel-heading>span,.admin-management-open small,.admin-dashboard-filters label,.admin-dashboard-filters>span{color:#aaa0a0}.empty b{color:#f1e9e2}
+.confirmbox .checkmark,.checkmark{background:#19372e;color:#76c9a6}.confirmbox,.ticket{color:var(--ink)}
+.poster,.reel-poster{background:#29252c}.moviecard-placeholder .poster,.reel-placeholder .reel-poster{background:linear-gradient(145deg,#2b272e,#39323a 50%,#211e24)}.moviecard-placeholder .movieinfo span,.placeholder-lines i{background:#39343b}.moviecard-placeholder .movieinfo span:first-child,.placeholder-lines i:first-child{background:#4a4149}.skeleton-block,.skeleton-line,.skeleton-show,.seat-placeholder,.ticket-qr-placeholder,.ticket-placeholder-lines i,.detail-poster-placeholder,.detailhero-placeholder h1,.detailhero-placeholder .meta,.detailhero-placeholder p{background:linear-gradient(105deg,#29252c 22%,#39333b 38%,#29252c 62%);background-size:260% 100%;border-color:#484149}.ticket-qr-placeholder{outline-color:#514850}
+.route-transition{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
+
+/* Brighter cinema palette: warm brass details and a restrained teal counterpoint. */
+:root{
+  --bg:#17151a;
+  --line:#454047;
+  --surface:#28252c;
+  --surface-raised:#302c34;
+  --surface-soft:#211e24;
+  --gold:#d0ae72;
+  --teal:#71b9ad;
+}
+body{background:radial-gradient(ellipse at 78% -12%,#a6475128,transparent 36%),radial-gradient(ellipse at 16% 64%,#c5a46d0e,transparent 34%),var(--bg)}
+.sidebar{background:linear-gradient(180deg,#121015 0%,#19161d 58%,#121015 100%)}
+.topbar{background:#201d24ef}
+.panel,.stat,.moviecard,.cinema-pov-card,.auth-card,.modal,.account-menu,.showtime-theatre,.showtime-card,.ticket,.confirmation-card,.account-profile,.admin-management-item,.filter-select-menu,.city-menu,.date-picker-menu{background:linear-gradient(145deg,#332f37,#28252c);border-color:#4a434c}
+.admin-management-item{background:linear-gradient(145deg,#342f37,#29252c)}
+.moviecard,.reel-card{border-color:#514952}.reel-caption{background:linear-gradient(180deg,#332f37,#27232a)}
+.toolbar input,.toolbar select,.field,.formfield input,.formfield select,.formfield textarea,.checkout-form input,.city-trigger,.filter-select-trigger,.auth-form input,.admin-dashboard-filters input{background:#211e24;border-color:#514952}
+.toolbar input:focus,.field:focus,.formfield input:focus,.formfield select:focus,.formfield textarea:focus,.city-trigger:hover,.filter-select-trigger:hover{border-color:var(--gold);box-shadow:0 0 0 3px #d0ae7218}
+.stat{box-shadow:0 14px 36px #0003,inset 0 1px #ffffff0a}.staticon{background:#40342a;color:var(--gold)}
+.admin-rank-track i{background:linear-gradient(90deg,#d0ae72,#b83a46)}
+.admin-status-row .admin-rank-track i.status-confirmed{background:linear-gradient(90deg,#71b9ad,#438f83)}
+.admin-payment-summary strong,.admin-booking-ref{color:var(--gold)}
+.linkred,.admin-management-add{color:#ec8588}
+.city-pin{background:#39252b;color:#ed9295}.city-option.selected .city-check{color:var(--gold)}
+.filter-select-option.selected{color:#ef9a9b}
+.seat.premium{background:#3a3022;border-color:#d0ae72;color:#e8ca94}
+.seat.selected{box-shadow:0 0 0 2px #d0ae7255,0 4px 14px #0005}
+.screenbar{background:linear-gradient(90deg,transparent,#c5a46d,#f1dfbd,#c5a46d,transparent);box-shadow:0 5px 22px #c5a46d33}
+.pill.green{background:#1d4038;color:#83d1bc}.live,.city-live-dot{background:var(--teal)}
+.showtime-theatre{box-shadow:0 14px 36px #0003,inset 0 1px #ffffff08}.theatre-showtime:hover,.theatre-showtime.selected{box-shadow:0 6px 18px #0004}
+.hero{background:radial-gradient(ellipse at 83% 18%,#d0ae7230,transparent 33%),linear-gradient(112deg,#281c27 0%,#542630 52%,#873440 100%)}
+.hero-orb{background:radial-gradient(circle at 32% 28%,#e2c58b3b,#c14a5320 48%,transparent 70%);border-color:#d8bc8d2a}
+
+.showtime-opening{position:fixed;inset:0;z-index:20000;display:grid;place-items:center;overflow:hidden;background:transparent;color:#fff8f0;isolation:isolate}
+
+.showtime-opening{position:fixed;inset:0;z-index:20000;display:grid;place-items:center;overflow:hidden;background:#0b090d;color:#fff8f0;isolation:isolate}
+.showtime-opening.is-preparing .opening-atmosphere,.showtime-opening.is-preparing .opening-brand-word,.showtime-opening.is-preparing .opening-panel,.showtime-opening.is-preparing .opening-center-flare{animation-play-state:paused}
+.opening-atmosphere,.opening-panel,.opening-center-flare{position:absolute;inset:0;pointer-events:none}
+.opening-atmosphere{z-index:0;background:radial-gradient(ellipse at 50% 48%,#82343f55 0%,#301a25 37%,#09080c 76%);animation:opening-atmosphere 2.2s ease both,opening-atmosphere-out .55s ease 1.9s both}
+.opening-brand-word{position:absolute;z-index:4;left:50%;top:50%;display:flex;align-items:center;white-space:nowrap;color:#fff3df;font:900 clamp(64px,12vw,170px)/.9 Manrope,sans-serif;letter-spacing:-.07em;-webkit-text-stroke:1.6px #e3c27d;paint-order:stroke fill;text-shadow:0 2px 0 #692b3a,0 8px 18px #0007;transform:translate3d(-50%,-50%,0);transform-origin:center;backface-visibility:hidden;will-change:transform;animation:opening-brand-zoom 1.25s cubic-bezier(.22,.61,.36,1) both}
+.opening-brand-show,.opening-brand-time{display:block;transition:transform .72s cubic-bezier(.65,0,.25,1),opacity .6s ease;will-change:transform}
+.opening-brand-show{display:flex;align-items:center;gap:.14em}
+.opening-brand-mark{display:grid;place-items:center;flex:0 0 auto;width:.9em;height:.9em;border:1px solid #ffc4bb;border-radius:.22em;background:linear-gradient(145deg,#ed5361,#a92139);box-shadow:0 .12em .3em #0005;color:#fff8f0;font-size:1em;font-weight:900;line-height:1;letter-spacing:0;-webkit-text-stroke:0;text-shadow:0 1px 2px #641b28}
+.opening-brand-mark>span{font-size:.72em;line-height:1;transform:translateY(-.015em)}
+.opening-brand-show{transform-origin:right center}.opening-brand-time{transform-origin:left center}
+.showtime-opening.is-curtain-open .opening-brand-show{transform:translate3d(-65vw,0,0);opacity:0}
+.showtime-opening.is-curtain-open .opening-brand-time{transform:translate3d(65vw,0,0);opacity:0}
+.opening-panel{z-index:1;inset-block:0;width:50%;background:radial-gradient(ellipse at 100% 50%,#492631 0%,#221922 42%,#100e13 100%);box-shadow:0 0 44px #0007;transform:translate3d(0,0,0);transition:transform .72s cubic-bezier(.65,0,.25,1);will-change:transform}
+.opening-panel:after{content:"";position:absolute;top:0;bottom:0;width:2px;background:linear-gradient(transparent,#c5a46d9c 28%,#f1dfbd 50%,#c5a46d9c 72%,transparent);box-shadow:0 0 18px #d0ae7260}
+.opening-panel-left{left:0;right:auto;border-right:1px solid #c5a46d4d;transform-origin:left center}
+.opening-panel-right{left:50%;right:auto;border-left:1px solid #c5a46d4d}
+.showtime-opening.is-curtain-open .opening-panel-left{transform:translate3d(-101%,0,0)}
+.showtime-opening.is-curtain-open .opening-panel-right{transform:translate3d(101%,0,0)}
+.opening-panel-left:after{right:0}.opening-panel-right:after{left:0}
+.opening-center-flare{z-index:8;inset:0 auto 0 50%;width:2px;opacity:0;background:linear-gradient(transparent,#fff2d0,#fff,#fff2d0,transparent);box-shadow:0 0 14px 4px #d0ae7255;animation:opening-flare .42s ease 1.2s both}
+@keyframes opening-atmosphere{0%{transform:scale(1.08);opacity:.68}24%{opacity:.92}52%{opacity:1}100%{transform:scale(1);opacity:.8}}
+@keyframes opening-atmosphere-out{to{opacity:0}}
+@keyframes opening-brand-zoom{0%{opacity:1;transform:translate3d(calc(-50% - 6vw),calc(-50% + 1.5vh),0) scale(1.55)}100%{opacity:1;transform:translate3d(-50%,-50%,0) scale(1)}}
+@keyframes opening-flare{0%{opacity:0;transform:scaleY(.1)}42%{opacity:1;transform:scaleY(1)}100%{opacity:0;transform:scaleY(.7)}}
+@media(max-width:650px){.opening-brand-word{font-size:clamp(52px,13vw,100px);-webkit-text-stroke:1.1px #e3c27d}}
+@media(prefers-reduced-motion:reduce){.showtime-opening *{animation-duration:.12s!important;animation-delay:0s!important;transition-duration:.12s!important}.opening-panel-left{transform:translate3d(-101%,0,0)}.opening-panel-right{transform:translate3d(101%,0,0)}}
+tbody tr{transform-origin:center;transition:transform .24s cubic-bezier(.2,.75,.25,1),background-color .24s,filter .24s}
+tbody tr:hover{position:relative;z-index:1;transform:scale(1.006);background:#39333b!important;filter:brightness(1.06)}
+tbody tr:hover td{background:transparent!important;color:#fff7ef}
+
+/* Keep legacy light-theme labels legible on the app's dark surfaces. */
+.table-movie-cell b{color:#f4eee8;font-size:12px;white-space:nowrap}
+.showtime-theatre-copy h3,.showtime-selected-summary strong,.seat-count-modal>h2,.seat-count-total strong,.seat-flow-head h2,.cinema-pov-head h2{color:#f4eee8}
+.showtime-theatre-copy h3 span,.showtime-theatre-copy p,.theatre-show-count,.theatre-showtime span,.theatre-showtime small,.seat-count-intro,.seat-count-total,.seat-count-next,.seat-flow-head p,.cinema-pov-head p{color:#b8afb2}
+.theatre-showtime strong{color:#8bcdb5}
+.cinema-pov-head .eyebrow{color:#d0ae72}
+.pov-live{color:#d5cbca}
+.fare-total{color:#f4eee8;border-color:var(--line)}
+.fare-total b{color:#f4eee8}
+.admin-status-row{color:#b8afb2}
+.admin-status-row strong{color:#f4eee8}
